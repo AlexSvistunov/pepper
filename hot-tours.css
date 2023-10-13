@@ -1,0 +1,47 @@
+
+@import 'normalize.css';
+@import 'fonts/fonts.css';
+
+html {
+  height: 100%;
+}
+body {
+  font-family: "Inter";
+
+}
+
+
+.container {
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 0 10px;
+  
+}
+
+.header {
+  padding: 27px 0 69px;
+  background-image: url('images/hot-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.header__logo {
+  display: inline-block;
+  margin-bottom: 19px;
+  width: 49px;
+  height: 50px;
+  background-image: url('images/logo-hot.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__title {
+  max-width: 70%;
+  margin: 0;
+  color: #040404;
+  font-size: 16px;
+  font-weight: 700;
+}
